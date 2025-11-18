@@ -19,7 +19,7 @@ data/raw/
 
 # 📁 Estructura del Repositorio
 
-
+````cs
 │
 ├── data/
 │ ├── raw/ # Datos originales (train / val / score)
@@ -35,11 +35,10 @@ data/raw/
 │ ├── eval_attrition_model.py # Evaluación del modelo
 │ └── score_attrition_model.py # Scoring final
 │
-├── environment.yml
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+````
 
 ---
 

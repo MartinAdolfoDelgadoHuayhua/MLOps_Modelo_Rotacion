@@ -40,40 +40,4 @@ data/raw/
 └── README.md
 ````
 
----
-
-# ⚙️ Instalación del Entorno
-
-### Usando conda:
-
-```bash
-conda env create -f environment.yml
-conda activate attrition-mlops
-
-### Usando pip:
-```bash
-pip install -r requirements.txt
-
-🧪 Ejecución del Pipeline (Ejemplos en Terminal)
-
-Ejecutar desde la carpeta raíz del proyecto.
-
-### 1. Preparación de Datos
-```bash
-python src/make_dataset.py
-
-### 2. Entrenamiento del Modelo
-```bash
-python src/train.py
-
-### 3. Evaluación del Modelo
-```bash
-python src/evaluate.py
-
-### 4. Scoring Final
-```bash
-python src/predict.py
-
-
-
 

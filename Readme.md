@@ -30,10 +30,10 @@ data/raw/
 │ └── attrition_best_model.pkl # Modelo entrenado
 │
 ├── src/
-│ ├── prepare_attrition_data.py # Feature engineering
-│ ├── train_attrition_model.py # Entrenamiento con XGBoost
-│ ├── eval_attrition_model.py # Evaluación del modelo
-│ └── score_attrition_model.py # Scoring final
+│ ├── make_dataset.py # Feature engineering
+│ ├── train.py # Entrenamiento con XGBoost
+│ ├── evaluate.py # Evaluación del modelo
+│ └── predict.py # Scoring final
 │
 ├── requirements.txt
 ├── .gitignore
